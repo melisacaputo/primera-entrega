@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+// PALETA DE COLORES ----
+$negro: #000100;
+$blanco: #f5f5f5;
+$gris: #444444;
+$lila: #c3acb8;
+$lavanda: #d7c1d7d5;
+$transparencia: rgba(158, 158, 158, 0.137);
+
+// TIPOGRAFIA ----
+$font: 20px;
+
+/* === GENERAL === */
+body {
+  background-image: url(../media/bg.jpg);
+  background-repeat: space repeat center;
+  color: $negro;
+  font-family: "Oswald", sans-serif;
+}
+
+.botones {
+  font-size: $font;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: $lila;
+}
+
+p {
+  margin: 0px;
+  font-size: $font;
+}
+
+ol, ul {
+  padding-left: 0px;
+}

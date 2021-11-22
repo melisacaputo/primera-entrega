@@ -1,0 +1,39 @@
+/* === CARRITO === */
+.section-carrito {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    .form-carrito {
+        width: 80vh;
+
+        form {
+            h2 {
+                font-size: $font + 4;
+            }
+        }
+    }
+
+    .resumen-carrito {
+        width: 60vh;
+
+        table {
+            background-color: $transparencia;
+            border-collapse: collapse;
+
+            tr {
+                td {
+                    font-size: $font;
+                    padding: 15px;
+
+                    img {
+                        width: 7em;
+                    }
+                }
+            }
+        }
+    }
+}

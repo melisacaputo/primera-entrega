@@ -1,0 +1,79 @@
+/* === PRODUCTOS === */
+.menu-nav {
+    font-size: $font;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    color: $gris;
+    
+    a {
+        color: $negro;
+        text-decoration: none;
+    }
+}
+
+.container-productos {
+    display: flex;
+    justify-content: space-evenly;
+
+    .categorias {
+        display: inline-block;
+        margin-right: 40px;
+        margin-left: 30px;
+        padding: 0px 40px;
+
+        h2 {
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            li {
+                list-style-type: none;
+
+                a {
+                    text-decoration: none;
+                    color: $negro;
+                    font-size: $font;
+                }
+            }
+        }
+    }
+
+    .section-productos {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .card-product {
+            width: 40%;
+            margin: 20px;
+            text-align: center;
+
+            a {
+                text-decoration: none;
+                color: black;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+
+                p,
+                strong {
+                    font-family: oswald, sans-serif;
+                }
+            }
+
+            .img-container {
+                overflow: hidden;
+                position: relative;
+
+                img {
+                    width: 80%;
+                    height: 50%;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

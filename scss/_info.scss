@@ -1,0 +1,32 @@
+/* === INFO === */
+.info {
+    h2 {
+        padding: 20px;
+        letter-spacing: 5px;
+        word-spacing: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .info-pregunta {
+        font-size: $font + 3;
+        padding: 30px;
+        line-height: 35px;
+
+        &:not(.collapsed) {
+            color: $negro;
+            background-color: $blanco;
+            background-image: none;
+        }
+
+        &:focus {
+            border-color: $transparencia;
+            box-shadow: 0 0 0 0.25rem $lavanda;
+        }
+    }
+
+    p {
+        font-size: $font + 2;
+    }
+}
